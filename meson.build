@@ -1,7 +1,7 @@
 project('sample_cpp_project', 'cpp',
     version : '1.0',
     license : [ 'proprietary'],
-    meson_version : '>= 0.50.0',
+    meson_version : '>= 0.64.1',
     default_options : [ 'warning_level=3', 'buildtype=debugoptimized', 'cpp_std=c++11' ]
 )
 
