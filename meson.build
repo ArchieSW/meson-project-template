@@ -56,5 +56,5 @@ configure_file(input : '.clang-tidy',
                output : '.clang-tidy',
                copy : true)
 run_target('tidy',
-  command : ['run-clang-tidy','-fix', '-j' , '8', 'files', regex ,'-format', '-p='+ meson.build_root()])
+  command : ['run-clang-tidy','-fix', '-j' , '8', 'files', regex ,'-format', '-p='+ meson.project_build_root()])
 
